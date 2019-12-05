@@ -1,0 +1,41 @@
+http://deckofcardsapi.com/
+
+
+https://deckofcardsapi.com/api/deck/new/shuffle/
+{
+success: true,
+shuffled: true,
+remaining: 52,
+deck_id: "jd5ym8y5hy8r"
+}
+
+https://deckofcardsapi.com/api/deck/jd5ym8y5hy8r/shuffle/
+
+https://deckofcardsapi.com/api/deck/jd5ym8y5hy8r/draw/?count=52
+{
+    success: true,
+    remaining: 48,
+    cards: [
+        {
+            value: "7",
+            suit: "SPADES",
+            code: "7S",
+            images: {
+                svg: "https://deckofcardsapi.com/static/img/7S.svg",
+                png: "https://deckofcardsapi.com/static/img/7S.png"
+            },
+            image: "https://deckofcardsapi.com/static/img/7S.png"
+        },
+        {
+            value: "2",
+            suit: "CLUBS",
+            code: "2C",
+            images: {
+                svg: "https://deckofcardsapi.com/static/img/2C.svg",
+                png: "https://deckofcardsapi.com/static/img/2C.png"
+            },
+            image: "https://deckofcardsapi.com/static/img/2C.png"
+        }
+    ],
+    deck_id: "jd5ym8y5hy8r"
+}
