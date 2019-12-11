@@ -1,6 +1,6 @@
 # Memory game using a deck of cards with react
 
-![Screenshot](https://github.com/JasonLough/circadence/blob/master/public/screenshot.png?raw=true "Screenshot")
+![Screenshot](https://raw.githubusercontent.com/JasonLough/circadence/master/screenshot.png "Screenshot")
 
 
 ---
